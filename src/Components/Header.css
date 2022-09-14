@@ -1,0 +1,32 @@
+/* Header CSS */
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav ul div {
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul div li:last-of-type {
+    margin-right: 2rem;
+}
+
+nav #logo {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
